@@ -1,0 +1,14 @@
+{
+  "name": "find",
+  "version": "1.0.0",
+  "scripts": {
+    "find": "node index"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.5.3",
+    "@graphql-tools/merge": "^8.2.1",
+    "graphql": "^16.2.0",
+    "graphql-import": "^1.0.2"
+  }
+}
