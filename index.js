@@ -3,9 +3,9 @@ const { mergeTypeDefs } = require("@graphql-tools/merge");
 const { print } = require("graphql");
 const fs = require("fs");
 
-// prettier-ignore
 const targetParamName = process.argv[2];
 if (!targetParamName) throw new Error("Missing target parameter");
+
 /**
  * merge schema
  */
